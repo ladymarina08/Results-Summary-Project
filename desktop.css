@@ -1,0 +1,151 @@
+@media screen and (min-width: 1440px) {
+
+    body{
+        display: flex;
+        width: 1440px;
+        height: 1080px;
+        padding: 284px 352px;
+        justify-content: center;
+        align-items: center;
+        background-color:  #ECF2FF;
+    }
+
+    .quadrado-do-desktop{
+        width: 736px;
+        height: 512px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        background: #FFF;
+        box-shadow: 0px 30px 60px 0px rgba(61, 108, 236, 0.15);
+        display: flex;
+    }
+
+    .quadrado{
+        width: 368px;
+        height: 512px;
+        flex-shrink: 0;
+        border-radius: 32px;
+        
+    }
+
+    .segundo-quadrado{
+        width: 368px;
+        height: auto;
+        flex-shrink: 0;
+        border-radius: 32px;
+    }
+
+    .result{
+        color: #CAC9FF;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        padding-top: 38px;
+        padding-bottom: 35px;
+    }
+
+    .circle{
+        background-image: url(./images/Oval_desktop.svg);
+        background-repeat: no-repeat;
+        width: 200px;
+        height: 200px;
+        flex-shrink: 0;
+        display:inline-block;
+        justify-content: center;
+        margin-bottom: 24px;
+    }
+
+    .numero-dentro-do-circulo{
+        color: var(--White);
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 72px;
+        margin-top: 55px;
+       
+    }
+
+    .segundo-numero-dentro-do-circulo{
+        color: #CAC9FF;
+        opacity: 0.5168;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+       
+    }
+
+    .great{
+        color: var(--White);
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 14px;
+    }
+
+    .texto{
+        color: #CAC9FF;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: 14px;
+        margin-bottom: 55px;
+        margin-left: 54px;
+        margin-right: 54px;
+    }
+
+    .summary{
+        font-family: 'Hanken Grotesk';
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        color: hsla(223, 30%, 27%, 1);
+        margin-left: 30px;
+        margin-top: 38px;
+        margin-bottom: 24px;
+    
+    }
+
+    .primeiro-item-texto, .segundo-item-texto, .terceiro-item-texto, .quarto-item-texto{
+        font-size: 18px;
+    }
+
+    .numeros{
+       
+        font-size: 18px;
+    }
+
+    button{
+        width: 288px;
+        height: 56px;
+        flex-shrink: 0;
+        margin-bottom: 46px;
+        margin-right: 40px;
+        margin-top: 41px;
+        cursor: pointer;
+    }
+
+    .primeiro-item, .segundo-item, .terceiro-item, .quarto-item {
+        width: 288px;
+        height: 56px;
+        flex-shrink: 0;
+        
+    }
+
+    .numeros{
+        margin-left: 100px;
+    }
+
+    button:active{
+        background: linear-gradient(180deg, #75F 0%, #6943FF 0.01%, #2F2CE9 100%);
+    }
+
+    .elemento-com-imagem-do-cursor {
+        cursor: url('./images/Pointer\ Copy\ 7.svg'), auto;
+      }
+      
+}
